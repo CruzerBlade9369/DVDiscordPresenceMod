@@ -3,6 +3,7 @@
 Shows information about your ***** in your Discord profile so you can prove to your friends that you're cosplaying a Class I railroad.
 
 While using this mod, the following will be shown in your Discord status with activity sharing enabled:
+- Your game status, whether you're in the main menu, loading, or idling to rack up playtime~.
 - The type and destination of your jobs. Will show "Multiple jobs to various destinations" if you're doing PSR.
 - The main type of freight your ***** is carrying.
 - If your ***** has a caboose attached.
