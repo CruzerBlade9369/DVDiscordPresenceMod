@@ -1,9 +1,0 @@
-{
-    "Id": "DVDiscordPresenceMod",
-    "DisplayName": "Discord Rich Presence Remastered",
-    "Author": "Cappycot, Cruzer",
-    "Version": "2.0.0",
-    "EntryMethod": "DVDiscordPresenceMod.Main.Load",
-    "HomePage": "https://www.nexusmods.com/derailvalley/mods/1134",
-    "Repository": "https://raw.githubusercontent.com/CruzerBlade9369/DVDiscordPresenceMod/master/Repository.json"
-}
