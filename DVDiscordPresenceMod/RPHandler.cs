@@ -36,7 +36,6 @@ namespace DVDiscordPresenceMod
         public const string DETAILS_LOADING = "Loading...";
 
         // Status Info
-        private static Job currentJob; // Highest-paying active job.
         private static Trainset lastTrain;
         private static int lastCarsCount;
         private static int oldDerailedAmount;
@@ -65,7 +64,7 @@ namespace DVDiscordPresenceMod
             activityDetails = DETAILS_MAINMENU;
             activityStart = UnixTime();
             activityEnd = 0;
-            currentJob = null;
+            totalNumJobs = 0;
             updateActivity = true;
             forceAllUpdate = true;
 
@@ -231,7 +230,7 @@ namespace DVDiscordPresenceMod
             if (train == null)
             {
                 // If no active job, switch to idle.
-                if (currentJob == null)
+                if (totalNumJobs <= 0)
                 {
                     lastTrain = null;
                     lastCarsCount = -1;
